@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="XinYi Ruan — AI agent developer, data science undergraduate. Builder of RxyCode, a local multi-agent workbench.">
+<meta name="theme-color" content="#04050a">
+<title>XinYi Ruan — AI Agent Developer</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+
+<div class="aurora" aria-hidden="true">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="orb orb-4"></div>
+  <div class="grain"></div>
+</div>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark">XR</span>
+      <span class="brand-name">XinYi Ruan</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#stack">Stack</a>
+      <a href="#projects">Projects</a>
+      <a href="#research">Research</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-glass btn-sm" href="https://github.com/xin-yi33" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-glass glass reveal">
+        <div class="monogram">XR</div>
+        <h1>XinYi Ruan</h1>
+        <p class="tagline">I build local-first AI agents, data pipelines, and full-stack products.</p>
+        <p class="hero-sub">Data Science &amp; Big Data Technology &middot; Guangdong Peizheng College &middot; Guangzhou, China</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-glass" href="https://github.com/xin-yi33/RxyCode" target="_blank" rel="noopener">Featured: RxyCode</a>
+        </div>
+      </div>
+      <p class="hero-note reveal">Open to internships in AI engineering &middot; data &middot; backend / full-stack</p>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="section-head reveal">
+      <h2>About</h2>
+    </div>
+    <div class="glass card about-card reveal">
+      <p class="about-lead">
+        Undergraduate in Data Science and Big Data Technology, building AI-agent systems from the metal up.
+        My flagship project <a href="https://github.com/xin-yi33/RxyCode" target="_blank" rel="noopener">RxyCode</a>
+        is a 100% local multi-agent workbench with its own RPC protocol, three user surfaces, and thousands of tests.
+      </p>
+      <p>
+        I work hands-on across the whole pipeline: data collection and JS-reverse scraping, Spark pipelines,
+        PyTorch models, RAG systems, and Flask / Vue full-stack apps. I also design Agent Skills and MCP
+        integrations rather than just consuming them.
+      </p>
+      <div class="stats">
+        <div class="stat"><span class="stat-num">~150K</span><span class="stat-label">lines of Python in RxyCode</span></div>
+        <div class="stat"><span class="stat-num">12,876</span><span class="stat-label">backend tests collected</span></div>
+        <div class="stat"><span class="stat-num">3</span><span class="stat-label">user surfaces, 1 protocol</span></div>
+        <div class="stat"><span class="stat-num">3.55/4</span><span class="stat-label">GPA &middot; top 10% of major</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="stack">
+    <div class="section-head reveal">
+      <h2>Tech Stack</h2>
+    </div>
+    <div class="stack-grid">
+      <div class="glass chip-card reveal">
+        <h3>Languages</h3>
+        <p>Python · TypeScript · JavaScript · Java · SQL · PowerShell</p>
+      </div>
+      <div class="glass chip-card reveal">
+        <h3>AI &amp; Agents</h3>
+        <p>LangChain / LangGraph · RAG · MCP · Agent Skills · multi-agent orchestration · prompt &amp; context engineering</p>
+      </div>
+      <div class="glass chip-card reveal">
+        <h3>Data &amp; Big Data</h3>
+        <p>pandas · NumPy · matplotlib / seaborn · Spark (PySpark) · Hadoop · Hive · Scala · scikit-learn</p>
+      </div>
+      <div class="glass chip-card reveal">
+        <h3>Deep Learning</h3>
+        <p>PyTorch · YOLO · embeddings · ChromaDB · vision analysis</p>
+      </div>
+      <div class="glass chip-card reveal">
+        <h3>Web &amp; Full-Stack</h3>
+        <p>Flask · FastAPI · Vue 3 · Element Plus · SpringBoot · React · Electron</p>
+      </div>
+      <div class="glass chip-card reveal">
+        <h3>Infra &amp; Tools</h3>
+        <p>Linux · Git · Docker · JSON-RPC · Playwright · Selenium · Tesseract OCR · CI / coverage gates</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="section-head reveal">
+      <h2>Projects</h2>
+    </div>
+
+    <article class="glass project featured reveal">
+      <div class="project-head">
+        <h3>RxyCode</h3>
+        <span class="pill">Featured · MIT</span>
+      </div>
+      <p class="project-desc">
+        A local multi-agent for real work, not just code. A 100% local, vendor-neutral AI agent workbench —
+        bring your own API key (encrypted with OS-native DPAPI), pick from 11 provider strategies
+        (DeepSeek, Kimi, Qwen, Doubao, GLM, MiniMax, OpenAI, Anthropic and more), and run everything on your machine.
+      </p>
+      <ul class="project-points">
+        <li><strong>Agent core</strong> — headless Python runtime over a LangGraph plan → execute → validate → synthesize pipeline, ~30 built-in tools, fast path for simple turns.</li>
+        <li><strong>Three surfaces, one protocol</strong> — Bun + React 19 terminal UI, Ink fallback TUI, and an Electron 39 desktop workbench, all driven by a versioned JSON-RPC protocol (141 request models) with CI-enforced TypeScript codegen.</li>
+        <li><strong>Multi-agent system</strong> — a 10-role Expert Team over 7 deterministic SOP stages, a mechanical 8-check verification gate, budget fuses, and isolated subagents with workspace leases.</li>
+        <li><strong>Memory &amp; RAG, zero heavy deps</strong> — tiered memory, AST-aware chunking, NumPy cosine index, PageRank repo map; no external vector database.</li>
+        <li><strong>Safety &amp; reliability</strong> — three-tier approval gate, crash-safe at-most-once side-effect journal, durable checkpoints with rewind and replayable traces.</li>
+        <li><strong>Scale</strong> — ~150K lines of Python, ~400K lines of TS/TSX, 12,876 backend tests, ConPTY end-to-end CI, coverage gates and secret scanning.</li>
+      </ul>
+      <div class="tags">
+        <span>Python</span><span>TypeScript</span><span>LangGraph</span><span>Electron</span><span>MCP</span><span>JSON-RPC</span>
+      </div>
+      <a class="btn btn-glass btn-sm" href="https://github.com/xin-yi33/RxyCode" target="_blank" rel="noopener">View on GitHub</a>
+    </article>
+
+    <div class="project-grid">
+      <article class="glass project reveal">
+        <div class="project-head">
+          <h3>coding-agent-crew</h3>
+          <span class="pill">MIT</span>
+        </div>
+        <p class="project-desc">
+          An Agent Skills pack that turns one AI session into a crew of seven engineer roles for building or
+          improving Codex-shaped coding agents — with hard ownership rules (surfaces never grow a second agent
+          loop; quality owns trajectory-eval gates) and installer support for .agents / .claude / .cursor / .grok.
+        </p>
+        <div class="tags"><span>Agent Skills</span><span>Multi-agent</span><span>SOP</span></div>
+        <a class="link-arrow" href="https://github.com/xin-yi33/coding-agent-crew" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+
+      <article class="glass project reveal">
+        <div class="project-head">
+          <h3>novel-writer-skill</h3>
+          <span class="pill">MIT</span>
+        </div>
+        <p class="project-desc">
+          A long-form Chinese web-novel writing engine as an Agent Skill: outline to full chapters, with a
+          serialization memory architecture — character bibles, summary compression, arc consolidation —
+          plus consistency checks and one-click draft publishing via browser MCP.
+        </p>
+        <div class="tags"><span>Agent Skill</span><span>Prompt Engineering</span><span>MCP</span></div>
+        <a class="link-arrow" href="https://github.com/xin-yi33/-novel-writer-skill" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+
+      <article class="glass project reveal">
+        <div class="project-head">
+          <h3>gaokao</h3>
+        </div>
+        <p class="project-desc">
+          A full-stack college-application recommendation system (reach / match / safety) in Flask + MySQL:
+          9 REST blueprints, a rank-difference probability model, and multi-source collection with Playwright,
+          Selenium, Tesseract OCR and search-engine cross-validation.
+        </p>
+        <div class="tags"><span>Flask</span><span>MySQL</span><span>Playwright</span><span>OCR</span></div>
+        <a class="link-arrow" href="https://github.com/xin-yi33/gaokao" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+
+      <article class="glass project reveal">
+        <div class="project-head">
+          <h3>More work</h3>
+        </div>
+        <ul class="mini-list">
+          <li>RAG knowledge-base QA — LangChain + DeepSeek + ChromaDB with persistent memory</li>
+          <li>YOLOv1 helmet detection from scratch in PyTorch on a VGG16 backbone</li>
+          <li>100K+ listing real-estate analysis — 7-dimension EDA, 10+ visualizations</li>
+          <li>JS-reverse music-site scraper with recovered request signing</li>
+          <li>Retail sales analytics on PySpark, writing to MySQL and Hive</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="research">
+    <div class="section-head reveal">
+      <h2>Research</h2>
+    </div>
+    <div class="glass card reveal">
+      <h3 class="research-title">Individualized Agent — A Governed Self-Evolution Architecture for Personalized LLM Agents</h3>
+      <p class="research-meta">Student research project · advisor: Li Jun</p>
+      <p>
+        Designing a persistent personal-agent architecture where experience is distilled into governed
+        knowledge objects, stored in a domain-partitioned B+ tree forest, retrieved by contextual routing,
+        composed with dependency-aware planning, adjudicated by confidence scoring, and gated by safety
+        policies before activation — with versioning, rollback and auditability at every step.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="section-head reveal">
+      <h2>Contact</h2>
+    </div>
+    <div class="glass card contact-card reveal">
+      <p>Want to talk about agents, data, or an internship? My inbox is open.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="mailto:ruanxinyi293@gmail.com">ruanxinyi293@gmail.com</a>
+        <a class="btn btn-glass" href="https://github.com/xin-yi33" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year">2026</span> XinYi Ruan · Built by hand · Hosted on GitHub Pages</p>
+</footer>
+
+</body>
+</html>

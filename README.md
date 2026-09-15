@@ -1,97 +1,92 @@
-# 阮心一 · XinYi Ruan
+# XinYi Ruan
 
-**数据科学与大数据技术本科生 · AI Agent 开发 · 数据分析与全栈开发**
+**Data Science & Big Data Technology Undergraduate · AI Agent Developer · Full-Stack & Data Engineering**
 
-广东培正学院 · 数据科学与计算机学院 · 2024 – 2028 · 广州
+Guangdong Peizheng College · School of Data and Computer Science · 2024 – 2028 · Guangzhou, China
+
+**Blog**: [xin-yi33.github.io/By-My-Self](https://xin-yi33.github.io/By-My-Self/) · **GitHub**: [@xin-yi33](https://github.com/xin-yi33) · **Email**: ruanxinyi293@gmail.com
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![Vue 3](https://img.shields.io/badge/Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
 
-## 关于我
+## About Me
 
-- 广东培正学院 · 数据科学与计算机学院，**数据科学与大数据技术**专业（2024 – 2028），GPA 3.55/4（专业前 10%）
-- 主要方向：**AI Agent 与大模型应用**、**数据分析 / 大数据**、**全栈开发**
-- 日常深度使用 AI Agent 工具链（Claude Code、Codex、OpenCode 等），熟练使用各种 Skill 与 MCP，并自研本地多智能体框架
-- 学生科研项目：**Individualized Agent —— 一种面向个性化 LLM 智能体的受管理自进化架构**（指导教师：李俊），负责架构设计与方法实现
-- 习惯以工程化方式解决真实问题：从数据采集、模型训练到 Web 应用完整落地
+- Undergraduate in **Data Science and Big Data Technology** at Guangdong Peizheng College (2024 – 2028), GPA 3.55/4 — top 10% of the major.
+- I build around **AI agents**: my flagship project [RxyCode](#rxycode) is a 100% local multi-agent workbench with ~150K lines of Python, three user surfaces and its own versioned RPC protocol.
+- Hands-on across the whole pipeline: **data collection → analysis → modeling → product**, from JS-reverse web scrapers and Spark pipelines to PyTorch models and Flask/Vue full-stack apps.
+- I work with AI agents daily (Claude Code, Codex, OpenCode, and my own), and design **Agent Skills / MCP** integrations rather than just using them.
+- Student research project: **Individualized Agent — A Governed Self-Evolution Architecture for Personalized LLM Agents** (advisor: Li Jun), designing the storage, retrieval and safety architecture.
 
-## 教育背景
+## Education
 
-**广东培正学院** · 数据科学与计算机学院 · 数据科学与大数据技术（本科） · 2024 – 2028
+**Guangdong Peizheng College** — B.Eng. in Data Science and Big Data Technology, School of Data and Computer Science (2024 – 2028)
 
-- GPA 3.55 / 4（专业前 10%）
-- 主修课程：Python、数据结构与算法、数学分析、线性代数、概率论与数理统计、统计学、Linux 操作系统、数据库原理与应用
-- 自学课程：Hadoop、Spark、HiveSQL、JavaWeb、BI
+- **GPA**: 3.55 / 4 (top 10%)
+- **Core coursework**: Python, Java, Data Structures & Algorithms, Mathematical Analysis, Linear Algebra, Probability & Statistics, Statistics, Linux, Database Principles & Applications, Web Front-end Development
+- **Self-taught**: the big-data stack (Hadoop, Spark / PySpark, Hive / HiveQL, Scala), JavaWeb & backend (SpringBoot), BI analytics, the Baidu TianSuan big-data platform track, and AI-agent engineering (multi-agent orchestration, Skill / MCP design, prompt engineering, context management)
 
-## 技术栈
+## Featured Open-Source Projects
 
-| 方向 | 内容 |
-|------|------|
-| 编程语言 | Python · Java · JavaScript · SQL |
-| 数据分析 | pandas · numpy · matplotlib · seaborn · scikit-learn（清洗 / 特征工程 / EDA / 可视化全流程） |
-| 大数据 | Hadoop · Hive · Spark（PySpark）· HDFS · Parquet |
-| AI 与深度学习 | PyTorch · YOLO · LangChain · RAG · ChromaDB · Embedding · Prompt Engineering · DeepSeek API |
-| 数据库 | MySQL（复杂查询 / 窗口函数 / 多表连接） |
-| Web 开发 | Flask · Vue 3 · Element Plus · SpringBoot · HTML / CSS / JavaScript |
-| 工具链 | Linux · Git · Playwright · Tesseract OCR · Jupyter Notebook · AI Agent / MCP |
+### RxyCode
 
-## 开源项目
+**[github.com/xin-yi33/RxyCode](https://github.com/xin-yi33/RxyCode)** — *A local multi-agent for real work, not just code.* (MIT · v1.3.0)
 
-| 项目 | 简介 | 技术栈 |
-|------|------|--------|
-| [RxyCode](https://github.com/xin-yi33/RxyCode) | 本地多智能体，能干的不只是写代码 —— Local multi-agent for real work, not just code | Python · TypeScript · Electron · React · MCP · TUI |
-| [coding-agent-crew](https://github.com/xin-yi33/coding-agent-crew) | 把一次 AI 会话变成动手干活的工程师团队，创建与改进 Codex 形态的编码智能体 | PowerShell · Electron · MCP · JSON-RPC |
-| [-novel-writer-skill](https://github.com/xin-yi33/-novel-writer-skill) | 小说写作辅助工具：从细纲到完整章节的创作引擎，支持本地写作与在线发布到番茄小说平台 | Python · Agent Skill |
-| [gaokao](https://github.com/xin-yi33/gaokao) | 高考志愿智能择校推荐系统，覆盖全国 31 省 7700+ 院校，冲/稳/保三档推荐 | Flask · Vue 3 · MySQL |
+A 100% local, vendor-neutral AI agent workbench built from scratch: no cloud middleman, bring your own API key (encrypted with OS-native DPAPI / owner-only files), and support for 11 provider strategies — DeepSeek, Kimi, Qwen, Doubao, GLM, MiniMax, OpenAI, Anthropic and more.
 
-## 项目经历
+- **Agent core** — a headless Python 3.10+ runtime (`Session` → `AgentV2`) driven by a LangGraph **plan → execute → validate → synthesize** pipeline with a fast path for simple turns; ~30 built-in tools (files, shell, git, web search/fetch, vision, downloads, LSP diagnostics, memory, scheduling).
+- **Three surfaces, one protocol** — a Bun + React 19 terminal UI (OpenTUI), an Ink/React 18 fallback TUI, and an Electron 39 desktop workbench (Windows NSIS / portable, Linux AppImage), all speaking a Pydantic-defined **JSON-RPC 1.1.0 protocol** (141 request + 26 notification models) whose TypeScript types are code-generated from a frozen JSON schema — CI fails if the generated types drift. A FastAPI HTTP/SSE server exposes the same API headlessly.
+- **Multi-agent system** — an Expert Team mode with 10 roles over 7 **deterministic** SOP stages (transitions are code, not LLM decisions), a mechanical verification gate of 8 hash-bound checks that runs before any LLM auditor, and budget fuses (tokens / wall-clock / delegations); isolated subagents get scoped tools, permissions and workspace leases.
+- **Memory & RAG without heavy dependencies** — tiered short/long-term memory with a vector experience store; codebase RAG uses AST-aware chunking, a float32 NumPy cosine index and a PageRank repo map — no external vector database, no networkx.
+- **Safety & reliability** — three-tier approval gate (auto-read, confirm-write, always-confirm-danger) with argument-aware risk classification, bash escape detection and a redacted audit log; a crash-safe **at-most-once side-effect journal**; durable checkpoints with rewind, thread fork and replayable JSONL traces.
+- **Engineering discipline** — ~150K lines of Python (~80K product) and ~400K lines of TS/TSX; **12,876 backend tests** collected by pytest in 17 s; CI runs ruff, coverage gates (67% core), protocol drift checks, secret scanning, a real **Windows ConPTY end-to-end** suite, and a desktop build matrix; an evaluation harness benchmarks the agent against raw-LLM baselines — and team mode actually ships **off by default** because the maintainers measured that it costs ~3× tokens for no pass-rate gain.
 
-**高考志愿智能填报系统（全栈）** · 2025.06
-- 覆盖全国 31 个省份、7700+ 所院校；基于省位次差的录取概率模型，智能生成冲 / 稳 / 保三档志愿方案
-- 后端 Flask 3.x 实现 14 个 RESTful API，前端 Vue 3 + Element Plus 构建 4 个核心页面，MySQL 8.0 七张核心数据表
-- 多源数据采集：Playwright 爬虫 + 三源搜索引擎交叉验证 + Tesseract OCR 管线 + pdfplumber / openpyxl 解析
+### coding-agent-crew
 
-**基于 LangChain 的 RAG 知识库智能问答系统** · 2025.10
-- 实现索引 – 检索 – 生成三阶段标准流程；ChromaDB 向量库 + DashScope Embedding（1536 维）+ DeepSeek 生成
-- 基于 LCEL 编排可组合处理链；FileChatMessageHistory 实现多会话隔离的持久化对话记忆
+**[github.com/xin-yi33/coding-agent-crew](https://github.com/xin-yi33/coding-agent-crew)** (MIT)
 
-**基于 YOLO 的安全帽佩戴目标检测系统** · 2025.10
-- 基于 PyTorch 从零实现 YOLOv1：VGG16 预训练骨干、自定义三项加权损失函数、完整的训练与推理管线
+An Agent Skills pack that turns one AI session into a crew of seven hands-on engineer roles for building or improving Codex-shaped coding agents. Roles follow a two-track SOP (Create / Optimize) with hard ownership rules — e.g. surfaces may never grow a second agent loop, quality owns trajectory-eval gates, and implementers must test their own layer. Includes stack mapping to upstream skill packs and an installer that drops role routers into `.agents` / `.claude` / `.cursor` / `.grok`.
 
-**房地产市场数据分析与可视化** · 2025.10
-- 10 万+ 条二手房交易数据全流程分析：数据清洗、10+ 衍生特征工程、7 个维度深入分析、10+ 可视化图表
+### novel-writer-skill
 
-**某原创音乐网站歌曲数据采集** · 2025.10
-- JS 逆向还原请求签名算法（execjs 调用还原的类 MD5 逻辑），requests + lxml/XPath 批量采集与音频自动化下载
+**[github.com/xin-yi33/-novel-writer-skill](https://github.com/xin-yi33/-novel-writer-skill)** (MIT)
 
-**店铺销售数据分析（PySpark）**
-- 针对 JSON 原始销售数据完成清洗与多维度统计（销售额排行 / 达标店铺数 / 平均单价 / 支付占比），分析结果多端落地 MySQL 与 Hive
+A long-form Chinese web-novel writing engine shipped as an Agent Skill: outline → full chapters, with a memory architecture for serialization — character bibles, a summary-compression formula, 30-chapter arc consolidation and a rolling recent-chapter window — plus character consistency checks, writer's-block continuation, title generation and one-click draft publishing to the Fanqie Novel platform through browser MCP tools.
 
-## GitHub 概览
+### gaokao
+
+**[github.com/xin-yi33/gaokao](https://github.com/xin-yi33/gaokao)**
+
+A full-stack college-application recommendation system ("reach / match / safety") in Flask + MySQL: 9 REST blueprints covering students, colleges, majors, rankings, industry trends, risk analysis and Excel/PDF export; a rank-difference probability model; and a multi-source collection suite built with Playwright, Selenium, Tesseract OCR and search-engine cross-validation.
+
+## More Projects
+
+- **RAG Knowledge-Base QA** — LangChain + DeepSeek + ChromaDB (1536-d DashScope embeddings), LCEL-orchestrated index/retrieve/generate pipeline with persistent multi-session memory.
+- **YOLO Helmet-Detection System** — YOLOv1 implemented from scratch in PyTorch on a VGG16 backbone: custom weighted loss, full training and grid-decoding inference pipeline.
+- **Real-Estate Market Analysis** — end-to-end analysis of 100K+ second-hand listings: cleaning, 10+ derived features, 7-dimension EDA and 10+ visualizations (pandas / seaborn).
+- **Music-Site Data Collection** — reverse-engineered a request-signing algorithm (execjs + recovered MD5 logic) for batched scraping and automated audio downloads.
+- **Retail Sales Analysis on Spark** — PySpark pipeline over JSON data with multi-metric aggregation written to both MySQL and Hive.
+
+## Research
+
+**Individualized Agent — A Governed Self-Evolution Architecture for Personalized LLM Agents** *(student research project, advisor: Li Jun)*
+
+Designing a persistent personal-agent architecture where experience is distilled into governed knowledge objects (EKO) stored in a domain-partitioned B+ tree forest, retrieved by contextual routing, composed with dependency-aware planning, adjudicated by confidence scoring, and gated by safety policies before activation — with versioning, rollback and auditability at every step.
+
+## GitHub Activity
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=xin-yi33&show_icons=true&hide_title=true&hide_border=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xin-yi33&layout=compact&hide_title=true&hide_border=true)
 
-## 联系我
+## Contact
 
-- GitHub：[@xin-yi33](https://github.com/xin-yi33)
-- Email：ruanxinyi293@gmail.com ｜ 1262075942@qq.com（详细简历可邮件索取）
-
----
-
-## About Me (English)
-
-Hi, I'm **XinYi Ruan**, an undergraduate at **Guangdong Peizheng College** majoring in Data Science and Big Data Technology (2024 – 2028, GPA 3.55/4, top 10% of the major).
-
-I build around **AI agents**: a local multi-agent system ([RxyCode](https://github.com/xin-yi33/RxyCode)), coding-agent tooling, and an AI novel-writing assistant skill. My hands-on experience covers data analysis (pandas/Spark), deep learning (PyTorch/YOLO), RAG systems (LangChain + ChromaDB), and full-stack development (Flask / Vue 3 / MySQL).
-
-- Student research: **Individualized Agent** — a governed self-evolution architecture for personalized LLM agents
-- Contact: ruanxinyi293@gmail.com ｜ 1262075942@qq.com
+- **Blog**: [xin-yi33.github.io/By-My-Self](https://xin-yi33.github.io/By-My-Self/)
+- **Email**: ruanxinyi293@gmail.com
+- **GitHub**: [@xin-yi33](https://github.com/xin-yi33)
